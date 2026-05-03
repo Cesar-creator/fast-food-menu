@@ -1,0 +1,66 @@
+/* ===== GLOBAL STYLES — Villaburger ===== */
+:root {
+  /* Backgrounds */
+  --bg: #0a0f0a;
+  --surface: #111611;
+  --card: #161e16;
+  --card-hover: #1c261c;
+
+  /* Brand — amarillo */
+  --brand: #f5c200;
+  --brand-dark: #c49a00;
+  --brand-subtle: rgba(245, 194, 0, 0.12);
+  --brand-border: rgba(245, 194, 0, 0.35);
+
+  /* Acento — verde */
+  --accent: #3a7d44;
+  --accent-light: #4e9e5a;
+  --accent-subtle: rgba(58, 125, 68, 0.15);
+  --accent-border: rgba(58, 125, 68, 0.35);
+
+  /* Texto */
+  --text: #f0ede8;
+  --text-secondary: #a0a89d;
+  --muted: #607060;
+
+  /* Bordes */
+  --border: rgba(255, 255, 255, 0.07);
+  --border-hover: rgba(255, 255, 255, 0.13);
+
+  /* Legado (renombrados, para no romper nada) */
+  --red: var(--brand);
+  --red-dark: var(--brand-dark);
+  --red-subtle: var(--brand-subtle);
+  --red-border: var(--brand-border);
+  --gold: #f5c200;
+  --gold-subtle: rgba(245, 194, 0, 0.15);
+
+  --radius: 10px;
+  --nav-h: 54px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 4px; }

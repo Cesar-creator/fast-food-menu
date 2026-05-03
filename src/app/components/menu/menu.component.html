@@ -1,0 +1,53 @@
+<app-header></app-header>
+
+<app-category-nav
+  [categories]="categories"
+  [activeId]="activeCategory"
+  (categorySelected)="onCategorySelected($event)">
+</app-category-nav>
+
+<main class="menu-main">
+  @for (cat of categories; track cat.id) {
+    <section class="menu-section" [id]="cat.id">
+
+      <div class="menu-section__header">
+        <span class="menu-section__emoji">{{ cat.emoji }}</span>
+        <h2 class="menu-section__title">{{ cat.name }}</h2>
+        <div class="menu-section__line"></div>
+      </div>
+
+      <div class="menu-items">
+        @for (item of cat.items; track item.id) {
+          <article class="menu-item">
+
+            <!-- Product image -->
+            <div class="menu-item__image-wrap">
+              <img
+                class="menu-item__image"
+                [src]="getImagePath(item.image)"
+                [alt]="item.name"
+                loading="lazy"
+                (error)="onImageError($event)"
+              />
+            </div>
+
+            <!-- Info -->
+            <div class="menu-item__body">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">{{ item.name }}</h3>
+                <span class="menu-item__price">{{ item.price | cop }}</span>
+              </div>
+
+              <p class="menu-item__desc">{{ item.description }}</p>
+            </div>
+
+          </article>
+        }
+      </div>
+
+    </section>
+  }
+</main>
+
+<footer class="menu-footer">
+</footer>

@@ -1,0 +1,15 @@
+<nav class="cat-nav">
+  <div class="cat-nav__track">
+    @for (cat of categories; track cat.id) {
+      <button
+        class="cat-nav__btn"
+        [class.cat-nav__btn--active]="activeId === cat.id"
+        (click)="scrollToCategory(cat.id)"
+        [attr.aria-label]="cat.name"
+      >
+        <span class="cat-nav__emoji">{{ cat.emoji }}</span>
+        <span class="cat-nav__label">{{ cat.name }}</span>
+      </button>
+    }
+  </div>
+</nav>
