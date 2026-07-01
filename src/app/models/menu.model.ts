@@ -12,4 +12,5 @@ export interface MenuCategory {
   name: string;
   emoji: string;
   items: MenuItem[];
+  type?: 'cards' | 'list';
 }

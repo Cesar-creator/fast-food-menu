@@ -460,35 +460,80 @@ export class MenuService {
         id: 'bebidas',
         name: 'Bebidas',
         emoji: '🥤',
+        type: 'list',
         items: [
           {
             id: 1,
             name: 'Granizada en Agua',
-            description: 'Carne desmechada, pollo desmechado, maíz tierno, jamón, queso tajado, lechuga, pepino, pimentón, cebolla, tomate y papa a la francesa.',
-            price: 6000,
-            image: 'no-image.png'
+            description: 'Naranja, limón, maracuyá, fresa, lulo y mora.',
+            price: 0
           },
           {
             id: 2,
-            name: 'Granizada en leche',
-            description: 'Pollo desmechado, jamón, queso tajado, lechuga, pepino, pimentón, cebolla, tomate y papa a la francesa.',
-            price: 7000,
-            image: 'no-image.png'
+            name: 'Granizada en Leche',
+            description: 'Guanábana, fresa y mora.',
+            price: 0
           },
           {
             id: 3,
             name: 'Milo',
-            description: 'Carne desmechada, jamón, queso tajado, lechuga, pepino, pimentón, cebolla, tomate y papa a la francesa.',
-            price: 7000,
-            image: 'no-image.png'
+            description: 'Bebida de chocolate malteado.',
+            price: 0
           },
           {
             id: 4,
-            name: 'Sandwich Ranchero',
-            description: 'Salchicha zenú, salami, maíz tierno, jamón, queso tajado, lechuga, pepino, pimentón, cebolla, tomate y papa a la francesa.',
-            price: 13000,
-            image: 'no-image.png'
-          }
+            name: 'Michelada',
+            description: 'Rodajas de mango, sal en los bordes y limón.',
+            price: 0
+          },
+          {
+            id: 5,
+            name: 'Gaseosa Personal',
+            description: 'Coca-Cola, Pepsi, Manzana, Kola, Naranja, Colombiana, Seven Up y Uva.',
+            price: 0
+          },
+          {
+            id: 6,
+            name: 'Gaseosa Pequeña',
+            description: 'Coca-Cola, Pepsi, Manzana, Kola, Naranja, Colombiana, Seven Up y Uva.',
+            price: 0
+          },
+          {
+            id: 7,
+            name: 'Gaseosa 1/4 Litro',
+            description: 'Coca-Cola, Pepsi, Manzana, Kola, Naranja, Colombiana, Seven Up y Uva.',
+            price: 0
+          },
+          {
+            id: 8,
+            name: 'Gaseosa 1/5',
+            description: 'Coca-Cola, Pepsi, Manzana, Kola, Naranja, Colombiana, Seven Up y Uva.',
+            price: 0
+          },
+          {
+            id: 9,
+            name: 'Gaseosa 2.5 L. Plástico',
+            description: 'Coca-Cola, Pepsi, Manzana, Kola, Naranja, Colombiana, Seven Up y Uva.',
+            price: 0
+          },
+          {
+            id: 10,
+            name: 'Sodas',
+            description: 'Soda Bretaña.',
+            price: 0
+          },
+          {
+            id: 11,
+            name: 'Agua Personal',
+            description: 'Agua Cristal.',
+            price: 0
+          },
+          {
+            id: 12,
+            name: 'Agua Pequeña',
+            description: 'Agua Cristal.',
+            price: 0
+          },
         ]
       }
     ];
