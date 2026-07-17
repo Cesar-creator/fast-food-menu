@@ -449,7 +449,7 @@ export class MenuService {
             id: 3,
             name: 'Sandwich de Carne',
             description: 'Carne desmechada, jamón, queso tajado, lechuga, pepino, pimentón, cebolla, tomate y papa a la francesa.',
-            price: 10000,
+            price: 18000,
             image: 'no-image.png'
           },
           {
