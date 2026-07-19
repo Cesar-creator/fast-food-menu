@@ -128,7 +128,7 @@ export class MenuService {
             name: 'Perro Hawaiano Especial',
             description: 'Salchicha zenú, piña en trocitos, pollo desmechado, tocineta, jamón, queso rayado, queso tajado, cebolla y papa a la francesa.',
             price: 22000,
-            image: 'no-image.png'
+            image: 'perro-hawaiano-especial.jpeg'
           },
           {
             id: 5,
