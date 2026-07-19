@@ -30,7 +30,7 @@ export class MenuService {
             name: 'Hamburguesa Doble Carne',
             description: 'Doble Carne, queso, jamón lechuga, tomate, cebolla grillé y papas a la francesa',
             price: 21000,
-            image: 'no-image.png'
+            image: 'hamburguesa-doble-carne.jpeg'
           },
           {
             id: 4,
@@ -128,7 +128,7 @@ export class MenuService {
             name: 'Perro Hawaiano Especial',
             description: 'Salchicha zenú, piña en trocitos, pollo desmechado, tocineta, jamón, queso rayado, queso tajado, cebolla y papa a la francesa.',
             price: 22000,
-            image: 'perro-hawaiano-especial.jpeg'
+            image: 'perro-hawaiano-especial.jpg'
           },
           {
             id: 5,
@@ -252,7 +252,7 @@ export class MenuService {
           {
             id: 6,
             name: 'Choripapa Especial',
-            description: 'Chorizo, pollo desmechado, maíz tierno, tocineta, queso tajado, lechuga y papa a la francesa.',
+            description: 'Chorizo, pollo desmechado, tocineta, queso tajado, lechuga y papa a la francesa.',
             price: 25000,
             image: 'no-image.png'
           },
