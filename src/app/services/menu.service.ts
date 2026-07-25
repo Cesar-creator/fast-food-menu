@@ -37,21 +37,21 @@ export class MenuService {
             name: 'Hamburguesa Especial',
             description: 'Carne de res, pollo, tocineta, jamón, queso, lechuga, cebolla grillé, tomate, aritos de cebolla y papa a la francesa.',
             price: 22000,
-            image: 'no-image.png'
+            image: 'hamburguesa-especial.jpg'
           },
           {
             id: 5,
             name: 'Hamburguesa Campesina',
             description: 'Carne, pollo desmechado, huevo frito, arepa de queso, tocineta, aritos de cebolla, queso, jamón lechuga, tomate, cebolla grillé y papas a la francesa',
             price: 23000,
-            image: 'no-image.png'
+            image: 'hamburguesa-campesina.jpg'
           },
           {
             id: 6,
             name: 'Hamburguesa Mixta',
             description: 'Doble carne, pollo desmechado, tocineta, aritos de cebolla, queso, jamón lechuga, tomate, cebolla grillé y papas a la francesa',
             price: 24000,
-            image: 'no-image.png'
+            image: 'hamburguesa-mixta.jpg'
           },
           {
             id: 7,
@@ -135,14 +135,14 @@ export class MenuService {
             name: 'Perro Especial Tradicional',
             description: 'Salchicha zenú, pollo desmechado, tocineta, jamón, papa picada, queso rayado, queso tajado, cebolla y papa a la francesa',
             price: 20000,
-            image: 'perro-especial-tradicional.jpeg'
+            image: 'perro-especial-tradicional.png'
           },
           {
             id: 6,
             name: 'Perro Especial Americano',
             description: 'Salchicha Americana, pollo desmechado, tocineta, jamón, papa picada, queso rayado, queso tajado, cebolla y papa a la francesa',
             price: 22000,
-            image: 'no-image.png'
+            image: 'perro-especial-americano.jpg'
           },
           {
             id: 7,
@@ -310,7 +310,7 @@ export class MenuService {
             name: 'Alitas BBQ',
             description: 'Alitas de pollo, ensalada, cebollitas y papa a la francesa.',
             price: 22000,
-            image: 'no-image.png'
+            image: 'alitas-bbq.jpg'
           }
         ]
       },
@@ -359,7 +359,7 @@ export class MenuService {
             name: 'Mazorcada Personal',
             description: 'Maíz tierno, salchicha zenú, pollo desmechado, queso tajado y papa a la francesa.',
             price: 16000,
-            image: 'no-image.png'
+            image: 'mazorcada-personal.jpg'
           },
           {
             id: 2,
